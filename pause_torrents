@@ -1,0 +1,32 @@
+#!/usr/bin/env node
+
+// Network SSIDs to block torrenting on.
+var SSIDS = {
+  DevBootcamp: true
+};
+
+var TIMEOUT = 1000;
+var INTERFACE = 'en0';
+
+var proc = require('child_process');
+var Transmission = require('transmission');
+var tx = new Transmission();
+
+function check() {
+  proc.exec('networksetup -getairportnetwork ' + INTERFACE,
+    function(err, stdout, stderr) {
+      setTimeout(check, TIMEOUT);
+      if (stdout) {
+        var net = stdout.substr('Current Wi-Fi Network: '.length);
+        net = net.substr(0, net.length - 1);
+        if (net in SSIDS) {
+          tx.stopAll(function(err, ok) { });
+        }
+      }
+      if (err) { console.error(err); }
+      if (stderr) { console.error(stderr); }
+    }
+  );
+}
+
+check();
