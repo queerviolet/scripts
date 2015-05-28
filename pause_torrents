@@ -10,7 +10,13 @@ var INTERFACE = 'en0';
 
 var proc = require('child_process');
 var Transmission = require('transmission');
-var tx = new Transmission();
+var tx = new Transmission({
+  host: 'localhost',
+  port: 9091,
+  url: '/transmission/rpc',
+  username: undefined,
+  password: undefined,
+});
 
 function check() {
   proc.exec('networksetup -getairportnetwork ' + INTERFACE,
