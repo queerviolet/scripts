@@ -1,0 +1,361 @@
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check [as _onTimeout] (/Users/ashi/scripts/pause_torrents:22:8)
+    at Timer.listOnTimeout (timers.js:88:15)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check (/Users/ashi/scripts/pause_torrents:22:8)
+    at Object.<anonymous> (/Users/ashi/scripts/pause_torrents:38:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:428:10)
+    at Module.load (module.js:335:32)
+    at Function.Module._load (module.js:290:12)
+    at Function.Module.runMain (module.js:451:10)
+    at startup (node.js:123:18)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check [as _onTimeout] (/Users/ashi/scripts/pause_torrents:22:8)
+    at Timer.listOnTimeout (timers.js:88:15)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check (/Users/ashi/scripts/pause_torrents:22:8)
+    at Object.<anonymous> (/Users/ashi/scripts/pause_torrents:38:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:428:10)
+    at Module.load (module.js:335:32)
+    at Function.Module._load (module.js:290:12)
+    at Function.Module.runMain (module.js:451:10)
+    at startup (node.js:123:18)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check [as _onTimeout] (/Users/ashi/scripts/pause_torrents:22:8)
+    at Timer.listOnTimeout (timers.js:88:15)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check [as _onTimeout] (/Users/ashi/scripts/pause_torrents:22:8)
+    at Timer.listOnTimeout (timers.js:88:15)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check (/Users/ashi/scripts/pause_torrents:22:8)
+    at Object.<anonymous> (/Users/ashi/scripts/pause_torrents:38:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:428:10)
+    at Module.load (module.js:335:32)
+    at Function.Module._load (module.js:290:12)
+    at Function.Module.runMain (module.js:451:10)
+    at startup (node.js:123:18)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check (/Users/ashi/scripts/pause_torrents:22:8)
+    at Object.<anonymous> (/Users/ashi/scripts/pause_torrents:38:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:428:10)
+    at Module.load (module.js:335:32)
+    at Function.Module._load (module.js:290:12)
+    at Function.Module.runMain (module.js:451:10)
+    at startup (node.js:123:18)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check (/Users/ashi/scripts/pause_torrents:22:8)
+    at Object.<anonymous> (/Users/ashi/scripts/pause_torrents:38:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:428:10)
+    at Module.load (module.js:335:32)
+    at Function.Module._load (module.js:290:12)
+    at Function.Module.runMain (module.js:451:10)
+    at startup (node.js:123:18)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check (/Users/ashi/scripts/pause_torrents:22:8)
+    at Object.<anonymous> (/Users/ashi/scripts/pause_torrents:38:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:428:10)
+    at Module.load (module.js:335:32)
+    at Function.Module._load (module.js:290:12)
+    at Function.Module.runMain (module.js:451:10)
+    at startup (node.js:123:18)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check (/Users/ashi/scripts/pause_torrents:22:8)
+    at Object.<anonymous> (/Users/ashi/scripts/pause_torrents:38:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:428:10)
+    at Module.load (module.js:335:32)
+    at Function.Module._load (module.js:290:12)
+    at Function.Module.runMain (module.js:451:10)
+    at startup (node.js:123:18)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check (/Users/ashi/scripts/pause_torrents:22:8)
+    at Object.<anonymous> (/Users/ashi/scripts/pause_torrents:38:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:428:10)
+    at Module.load (module.js:335:32)
+    at Function.Module._load (module.js:290:12)
+    at Function.Module.runMain (module.js:451:10)
+    at startup (node.js:123:18)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check (/Users/ashi/scripts/pause_torrents:22:8)
+    at Object.<anonymous> (/Users/ashi/scripts/pause_torrents:38:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:428:10)
+    at Module.load (module.js:335:32)
+    at Function.Module._load (module.js:290:12)
+    at Function.Module.runMain (module.js:451:10)
+    at startup (node.js:123:18)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check [as _onTimeout] (/Users/ashi/scripts/pause_torrents:22:8)
+    at Timer.listOnTimeout (timers.js:88:15)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check (/Users/ashi/scripts/pause_torrents:22:8)
+    at Object.<anonymous> (/Users/ashi/scripts/pause_torrents:38:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:428:10)
+    at Module.load (module.js:335:32)
+    at Function.Module._load (module.js:290:12)
+    at Function.Module.runMain (module.js:451:10)
+    at startup (node.js:123:18)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check [as _onTimeout] (/Users/ashi/scripts/pause_torrents:22:8)
+    at Timer.listOnTimeout (timers.js:88:15)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check (/Users/ashi/scripts/pause_torrents:22:8)
+    at Object.<anonymous> (/Users/ashi/scripts/pause_torrents:38:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:428:10)
+    at Module.load (module.js:335:32)
+    at Function.Module._load (module.js:290:12)
+    at Function.Module.runMain (module.js:451:10)
+    at startup (node.js:123:18)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check [as _onTimeout] (/Users/ashi/scripts/pause_torrents:22:8)
+    at Timer.listOnTimeout (timers.js:88:15)
+{ [Error: Command failed: /bin/sh -c networksetup -getairportnetwork en0
+]
+  killed: false,
+  code: 9,
+  signal: null,
+  cmd: '/bin/sh -c networksetup -getairportnetwork en0' }
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check [as _onTimeout] (/Users/ashi/scripts/pause_torrents:22:8)
+    at Timer.listOnTimeout (timers.js:88:15)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check (/Users/ashi/scripts/pause_torrents:22:8)
+    at Object.<anonymous> (/Users/ashi/scripts/pause_torrents:38:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:428:10)
+    at Module.load (module.js:335:32)
+    at Function.Module._load (module.js:290:12)
+    at Function.Module.runMain (module.js:451:10)
+    at startup (node.js:123:18)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check (/Users/ashi/scripts/pause_torrents:22:8)
+    at Object.<anonymous> (/Users/ashi/scripts/pause_torrents:38:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:428:10)
+    at Module.load (module.js:335:32)
+    at Function.Module._load (module.js:290:12)
+    at Function.Module.runMain (module.js:451:10)
+    at startup (node.js:123:18)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check (/Users/ashi/scripts/pause_torrents:22:8)
+    at Object.<anonymous> (/Users/ashi/scripts/pause_torrents:38:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:428:10)
+    at Module.load (module.js:335:32)
+    at Function.Module._load (module.js:290:12)
+    at Function.Module.runMain (module.js:451:10)
+    at startup (node.js:123:18)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check (/Users/ashi/scripts/pause_torrents:22:8)
+    at Object.<anonymous> (/Users/ashi/scripts/pause_torrents:38:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:428:10)
+    at Module.load (module.js:335:32)
+    at Function.Module._load (module.js:290:12)
+    at Function.Module.runMain (module.js:451:10)
+    at startup (node.js:123:18)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check (/Users/ashi/scripts/pause_torrents:22:8)
+    at Object.<anonymous> (/Users/ashi/scripts/pause_torrents:38:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:428:10)
+    at Module.load (module.js:335:32)
+    at Function.Module._load (module.js:290:12)
+    at Function.Module.runMain (module.js:451:10)
+    at startup (node.js:123:18)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check [as _onTimeout] (/Users/ashi/scripts/pause_torrents:22:8)
+    at Timer.listOnTimeout (timers.js:88:15)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check (/Users/ashi/scripts/pause_torrents:22:8)
+    at Object.<anonymous> (/Users/ashi/scripts/pause_torrents:38:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:428:10)
+    at Module.load (module.js:335:32)
+    at Function.Module._load (module.js:290:12)
+    at Function.Module.runMain (module.js:451:10)
+    at startup (node.js:123:18)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check (/Users/ashi/scripts/pause_torrents:22:8)
+    at Object.<anonymous> (/Users/ashi/scripts/pause_torrents:38:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:428:10)
+    at Module.load (module.js:335:32)
+    at Function.Module._load (module.js:290:12)
+    at Function.Module.runMain (module.js:451:10)
+    at startup (node.js:123:18)
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exports.execFile (child_process.js:753:15)
+    at Object.exports.exec (child_process.js:622:18)
+    at check (/Users/ashi/scripts/pause_torrents:22:8)
+    at Object.<anonymous> (/Users/ashi/scripts/pause_torrents:38:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:428:10)
+    at Module.load (module.js:335:32)
+    at Function.Module._load (module.js:290:12)
+    at Function.Module.runMain (module.js:451:10)
+    at startup (node.js:123:18)
+{ [Error: Command failed: /bin/sh -c networksetup -getairportnetwork en0
+]
+  killed: false,
+  code: 9,
+  signal: null,
+  cmd: '/bin/sh -c networksetup -getairportnetwork en0' }
+{ [Error: Command failed: /bin/sh -c networksetup -getairportnetwork en0
+]
+  killed: false,
+  code: 9,
+  signal: null,
+  cmd: '/bin/sh -c networksetup -getairportnetwork en0' }
+child_process.js:753
+  child.stdout.addListener('data', function(chunk) {
+              ^
+TypeError: Cannot read property 'addListener' of undefined
+    at Object.exp

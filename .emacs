@@ -28,7 +28,15 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(font-lock-comment-delimiter-face ((t (:foreground "deep sky blue"))))
+ '(font-lock-comment-face ((t (:foreground "deep sky blue" :slant oblique))))
+ '(font-lock-keyword-face ((t (:foreground "magenta"))))
  '(mode-line ((t (:background "black" :foreground "magenta" :box 1 :height 0.9))))
  '(mode-line-buffer-id ((t (:background "magenta" :foreground "black" :box (:line-width 5 :color "magenta") :weight bold :height 1.2))))
- '(scroll-bar ((t (:background "black" :foreground "WhiteSmoke")))))
+ '(mode-line-inactive ((t (:background "black" :foreground "grey80" :box 1 :weight light :height 0.9))))
+ '(scroll-bar ((t (:background "black" :foreground "dim gray"))))
+ '(vertical-border ((t (:background "black"))))
+ '(window-divider ((t (:foreground "white")))))
 (set-face-attribute 'default nil :height 150)
+
+(add-hook 'find-file-hook (lambda () (linum-mode 1)))
