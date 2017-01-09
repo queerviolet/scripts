@@ -16,16 +16,13 @@ if [ $TERM_PROGRAM = Apple_Terminal ] || [ $TERM_PROGRAM = iTerm.app ]; then
 fi
 
 # The next line updates PATH for the Google Cloud SDK.
-source '/Users/ashi/google-cloud-sdk/path.bash.inc'
+# source '/Users/ashi/google-cloud-sdk/path.bash.inc'
 
 # The next line enables bash completion for gcloud.
-source '/Users/ashi/google-cloud-sdk/completion.bash.inc'
-
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
+# source '/Users/ashi/google-cloud-sdk/completion.bash.inc'
 
 # oh god
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/
+# export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/
 
 # sigh
 alias be="bundle exec"
@@ -35,3 +32,6 @@ alias be="bundle exec"
 PATH=~/go_appengine:$PATH
 # added by Anaconda 2.3.0 installer
 export PATH="/Users/ashi/anaconda/bin:$PATH"
+
+export NVM_DIR="/Users/ashi/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
