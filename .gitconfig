@@ -1,3 +1,7 @@
+[user]
+  name = queerviolet
+  email = Ashi Krishnan <me@ashi.works>
+    
 [alias]
   co = checkout
   ci = commit
