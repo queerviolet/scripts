@@ -24,6 +24,9 @@ fi
 # oh god
 # export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/
 
+# Git completion
+source ~/scripts/git-completion.bash
+
 # sigh
 alias be="bundle exec"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
@@ -35,3 +38,5 @@ export PATH="/Users/ashi/anaconda/bin:$PATH"
 
 export NVM_DIR="/Users/ashi/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+source ~/.profile

@@ -1,0 +1,21 @@
+[{
+    "key": "ctrl+x o",
+    "command": "workbench.action.navigateEditorGroups",
+    "when": "editorTextFocus"
+},{
+    "key": "ctrl+shift+=",
+    "command": "redo",
+    "when": "editorTextFocus"
+},{
+    "key": "ctrl+shift+-",
+    "command": "undo",
+    "when": "editorTextFocus"
+},{
+    "key": "ctrl+x ctrl+f",
+    "command": "workbench.action.quickOpen",
+    "when": "editorTextFocus"
+},{
+    "key": "cmd+d",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorTextFocus"
+}]
