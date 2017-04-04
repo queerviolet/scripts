@@ -4,7 +4,9 @@ alias git=hub
 export EDITOR=emacs
 export PATH=$HOME/scripts:/usr/local/go/bin:$PATH
 alias gitst="git status -s -b 2>/dev/null"
-if [ $TERM_PROGRAM = Apple_Terminal ] || [ $TERM_PROGRAM = iTerm.app ]; then
+if [ "$TERM_PROGRAM" = Apple_Terminal ] ||
+   [ "$TERM_PROGRAM" = iTerm.app ] ||
+   [ -n "$VSCODE_PID" ]; then
   heart_prompt() {
     if [ $? == 0 ]; then
       PS1="\[\033[1;34m\]\h : \w\[\033[0m\] \$(git -c color.ui=always branch 2> /dev/null)\n💗  "
@@ -14,6 +16,8 @@ if [ $TERM_PROGRAM = Apple_Terminal ] || [ $TERM_PROGRAM = iTerm.app ]; then
   }
   PROMPT_COMMAND=heart_prompt
 fi
+
+alias c="open -a 'Visual Studio Code'"
 
 # The next line updates PATH for the Google Cloud SDK.
 # source '/Users/ashi/google-cloud-sdk/path.bash.inc'
