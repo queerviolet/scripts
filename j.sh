@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ -n "$*" ]; then
-  title=$(echo "_$*" | sed -e 's/ /_/g')
+  title=" - $*"
 fi
 export jot="$(date '+%Y-%m-%d %H:%M:%S (%Z)')$title.md"
 echo "# $jot" > "$jot"
