@@ -1,0 +1,25 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "scripts =======",
+  "main": "gitup.js",
+  "dependencies": {
+    "strftime": "^0.10.0",
+    "tag-shell": "^0.2.0",
+    "transmission": "^0.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/queerviolet/scripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/queerviolet/scripts/issues"
+  },
+  "homepage": "https://github.com/queerviolet/scripts#readme"
+}

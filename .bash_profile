@@ -17,16 +17,8 @@ if [ "$TERM_PROGRAM" = Apple_Terminal ] ||
   PROMPT_COMMAND=heart_prompt
 fi
 
-alias c="open -a 'Visual Studio Code'"
-
-# The next line updates PATH for the Google Cloud SDK.
-# source '/Users/ashi/google-cloud-sdk/path.bash.inc'
-
-# The next line enables bash completion for gcloud.
-# source '/Users/ashi/google-cloud-sdk/completion.bash.inc'
-
-# oh god
-# export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/
+alias c="code --new-window"
+export VISUAL="code -w"
 
 # Git completion
 source ~/scripts/git-completion.bash
@@ -44,3 +36,8 @@ export NVM_DIR="/Users/ashi/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 source ~/.profile
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/ashi/google-cloud-sdk/path.bash.inc' ]; then source '/Users/ashi/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/ashi/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/ashi/google-cloud-sdk/completion.bash.inc'; fi

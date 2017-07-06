@@ -23,8 +23,16 @@
  '(custom-safe-themes
    (quote
     ("37334644182e90da57661982ea35892056b843c4bba0479a0f600bd0a46d95da" "8d03d539fab75b419fad29402fc75e690e6f4d0ff7c1565a4018c327fa447465" default)))
+ '(global-writeroom-mode t nil (writeroom-mode))
  '(line-number-mode nil)
- '(linum-format " %3d "))
+ '(linum-format " %3d ")
+ '(package-selected-packages (quote (fountain-mode markdown-mode writeroom-mode)))
+ '(scroll-bar-mode nil)
+ '(tool-bar-mode nil)
+ '(writeroom-global-effects
+   (quote
+    (writeroom-set-alpha writeroom-set-menu-bar-lines writeroom-set-tool-bar-lines writeroom-set-vertical-scroll-bars writeroom-set-bottom-divider-width)))
+ '(writeroom-major-modes (quote (text-mode markdown-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -46,5 +54,9 @@
  '(window-divider-last-pixel ((t (:foreground "black")))))
 (set-face-attribute 'default nil :height 150)
 
-(add-hook 'find-file-hook (lambda () (linum-mode 1)))
+;; (add-hook 'find-file-hook (lambda () (linum-mode 1)))
 (global-set-key (kbd "C-t") 'fiplr-find-file)
+
+(defun ashi-markdown-mode-hook ()
+  (visual-line-mode 1))
+(add-hook 'markdown-mode-hook 'ashi-markdown-mode-hook)
