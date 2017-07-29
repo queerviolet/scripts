@@ -3,6 +3,17 @@
     "window.zoomLevel": 1,
     "editor.tabSize": 2,
     "editor.tabCompletion": true,
-    "workbench.colorTheme": "Default Light+",
-    "terminal.integrated.shellArgs.osx": ["-l"]
+    "terminal.integrated.shellArgs.osx": [
+        "-l"
+    ],
+    "workbench.colorTheme": "Sunset Theme",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#000",
+        "activityBar.foreground": "#404",
+        "activityBarBadge.background": "#a0a",
+        "statusBar.background": "#000",
+        "statusBar.foreground": "#f0f",
+        "statusBar.border": "#0000",
+        "statusBarItem.hoverBackground": "#f0f2"
+    }
 }
