@@ -1,12 +1,12 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 2,
     "editor.tabSize": 2,
     "editor.tabCompletion": true,
     "terminal.integrated.shellArgs.osx": [
         "-l"
     ],
-    "workbench.colorTheme": "Sunset Theme",
+    "workbench.colorTheme": "Default Light+",
     "workbench.colorCustomizations": {
         "activityBar.background": "#000",
         "activityBar.foreground": "#404",
@@ -15,5 +15,19 @@
         "statusBar.foreground": "#f0f",
         "statusBar.border": "#0000",
         "statusBarItem.hoverBackground": "#f0f2"
-    }
+    },
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+            "deeppink",
+            "Orchid",
+            "LightSkyBlue"
+        ],
+        "Red"
+    ],
+    "extensions.ignoreRecommendations": true,
+    "workbench.sideBar.location": "left",
+    "workbench.activityBar.visible": false
 }

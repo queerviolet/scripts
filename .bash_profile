@@ -1,5 +1,8 @@
 alias ls="ls -G"
 alias git=hub
+alias nodesk="defaults write com.apple.finder CreateDesktop false && killall Finder"
+alias deskme="defaults write com.apple.finder CreateDesktop true && killall Finder"
+nodesk
 
 export EDITOR=emacs
 export PATH=$HOME/scripts:/usr/local/go/bin:$PATH
@@ -18,6 +21,7 @@ if [ "$TERM_PROGRAM" = Apple_Terminal ] ||
 fi
 
 alias c="code --new-window"
+alias e="open -a Emacs"
 export VISUAL="code -w"
 
 # Git completion
