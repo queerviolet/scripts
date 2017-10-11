@@ -10,7 +10,7 @@ if (module === require.main) {
   
   const {COHORT} = process.env
   if (COHORT)
-    description += `\nCohort: ${COHORT}`
+    description += `\n\nCohort: ${COHORT}`
 
   require('livestream')({
     title, description
