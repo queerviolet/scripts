@@ -47,3 +47,5 @@ if [ -f '/Users/ashi/google-cloud-sdk/path.bash.inc' ]; then source '/Users/ashi
 if [ -f '/Users/ashi/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/ashi/google-cloud-sdk/completion.bash.inc'; fi
 
 export COHORT=1709-GH-NY
+export COHORT_SLACK=1709-gh-ny-jr
+export SLACK_API_TOKEN=$(cat ~/.slack-api-token)

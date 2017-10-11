@@ -8,6 +8,7 @@
     "golive": "golive.js"
   },
   "dependencies": {
+    "@slack/client": "^3.14.1",
     "express": "^4.15.3",
     "fountain-js": "^0.0.1",
     "livestream": "0.0.1",
