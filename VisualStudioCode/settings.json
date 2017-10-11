@@ -1,12 +1,12 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 1,
     "editor.tabSize": 2,
     "editor.tabCompletion": true,
     "terminal.integrated.shellArgs.osx": [
         "-l"
     ],
-    "workbench.colorTheme": "Default Light+",
+    "workbench.colorTheme": "Hop Light",
     "workbench.colorCustomizations": {
         "activityBar.background": "#000",
         "activityBar.foreground": "#404",
@@ -29,5 +29,7 @@
     ],
     "extensions.ignoreRecommendations": true,
     "workbench.sideBar.location": "left",
-    "workbench.activityBar.visible": false
+    "workbench.activityBar.visible": false,
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true
 }

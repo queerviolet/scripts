@@ -45,3 +45,5 @@ if [ -f '/Users/ashi/google-cloud-sdk/path.bash.inc' ]; then source '/Users/ashi
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/ashi/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/ashi/google-cloud-sdk/completion.bash.inc'; fi
+
+export COHORT=1709-GH-NY
