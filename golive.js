@@ -6,12 +6,12 @@ if (module === require.main) {
   let {title, description, channel} = require('commander')
     .option('-t, --title [title]', 'Stream title', `${process.env.USER}'s livestream`)
     .option('-d, --description [description]', 'Stream description', '')
-    .option('-c, --channel [channel]', 'Slack channel', 'hooktest' || process.env.COHORT_SLACK)
+    .option('-c, --channel [channel]', 'Slack channel', process.env.COHORT_SLACK)
     .parse(process.argv)
   
-  const {COHORT} = process.env
-  if (COHORT)
-    description += `\n\nCohort: ${COHORT}`
+  if (channel)
+    description += `\n\nCohort: ${channel}`
+  console.log('channel=', channel)
 
   require('livestream')({
     title, description

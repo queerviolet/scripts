@@ -2,7 +2,7 @@
 
 const Nightmare = require('nightmare')
     , seconds = 1000
-    , TIMEOUT = 60 * seconds
+    , waitTimeout = 60 * seconds
     , input = (name, tag='input') => `${tag}[name="${name}"]`
     , titleInput = input('title')    
     , descriptionTextarea = input('description', 'textarea')    
@@ -25,24 +25,28 @@ const livestream = module.exports = async function livestream({title, descriptio
   const dashboard = Nightmare({
       webPreferences: {partition},
       typeInterval: 5,
+      waitTimeout,
       show
     })
     .goto('https://www.youtube.com/live_dashboard')
-    .wait(titleInput, TIMEOUT)
-    .wait(descriptionTextarea, TIMEOUT)
+    .wait(titleInput)
+    .wait(descriptionTextarea)
   
   title && await
     dashboard
-      .type(titleInput, '')
-      .type(titleInput, keystrokes(title))
+      .insert(titleInput, '')
+      .insert(titleInput, Math.random())
+      .insert(titleInput, '')      
+      .insert(titleInput, title)
   
   description && await
     dashboard
-      .type(descriptionTextarea, '')
-      .type(descriptionTextarea, keystrokes(description))
-    
-  if (title || dashboard)
-    await dashboard.wait(saved, TIMEOUT)
+      .insert(descriptionTextarea, '')
+      .insert(descriptionTextarea, Math.random())
+      .insert(descriptionTextarea, '')      
+      .insert(descriptionTextarea, description)
+
+  await dashboard.wait(saved)
   
   return dashboard.evaluate(getStreamUrl).end()
 }
