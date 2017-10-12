@@ -5,13 +5,14 @@
   "main": "gitup.js",
   "bin": {
     "gitup": "gitup.js",
-    "golive": "golive.js"
+    "golive": "golive.js",
+    "unlive": "unlive.js"
   },
   "dependencies": {
     "@slack/client": "^3.14.1",
     "express": "^4.15.3",
     "fountain-js": "^0.0.1",
-    "livestream": "0.0.1",
+    "livestream": "0.0.3",
     "strftime": "^0.10.0",
     "tag-shell": "^0.2.0",
     "transmission": "^0.4.2"

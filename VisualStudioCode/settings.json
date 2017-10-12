@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 2,
     "editor.tabSize": 2,
     "editor.tabCompletion": true,
     "terminal.integrated.shellArgs.osx": [

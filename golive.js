@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 
-const channel = process.env.COHORT_SLACK || 'hooktest'
+const OBS = require('./obs')
 
 if (module === require.main) {
-  let {title, description} = require('commander')
-    .option('-t, --title [title]', 'Stream title')
-    .option('-d, --description [description]', 'Stream description')
+  let {title, description, channel} = require('commander')
+    .option('-t, --title [title]', 'Stream title', `${process.env.USER}'s livestream`)
+    .option('-d, --description [description]', 'Stream description', '')
+    .option('-c, --channel [channel]', 'Slack channel', 'hooktest' || process.env.COHORT_SLACK)
     .parse(process.argv)
   
   const {COHORT} = process.env
@@ -25,9 +26,10 @@ if (module === require.main) {
             err ? reject(err) : resolve(ok)))
     })
     .then(() => {
-      console.log(`Slacked ${channel}`)
-      process.exit(0)
-    })
+      console.log(`Slacked ${channel}`)      
+    })    
+    .then(OBS.start)
+    .then(() => process.exit(0))
     .catch(err => {
       console.error(err)
       process.exit(1)
