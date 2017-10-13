@@ -11,7 +11,6 @@ if (module === require.main) {
   
   if (channel)
     description += `\n\nCohort: ${channel}`
-  console.log('channel=', channel)
 
   require('livestream')({
     title, description
@@ -29,7 +28,10 @@ if (module === require.main) {
       console.log(`Slacked ${channel}`)      
     })    
     .then(OBS.start)
-    .then(() => process.exit(0))
+    .then(() => {
+      console.log('Livestream started.')
+      process.exit(0)
+    })
     .catch(err => {
       console.error(err)
       process.exit(1)
