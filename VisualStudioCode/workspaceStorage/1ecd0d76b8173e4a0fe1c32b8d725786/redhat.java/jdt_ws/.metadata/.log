@@ -1,0 +1,2283 @@
+!SESSION 2017-10-16 12:34:05.061 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=9
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Command-line arguments:  -data /Users/ashi/Library/Application Support/Code/User/workspaceStorage/1ecd0d76b8173e4a0fe1c32b8d725786/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:34:06.179
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:34:06.343
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:34:06.344
+!MESSAGE Initializing Java Language Server 0.5.0.201710022302
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:34:06.357
+!MESSAGE Creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:34:06.364
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:34:07.956
+!MESSAGE Finished creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:34:08.274
+!MESSAGE >>New configuration: {java={home=null, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={updateBuildConfiguration=interactive, maven={userSettings=null}}, trace={server=off}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true}, import={exclusions=['**/node_modules', '**/.metadata']}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:34:08.277
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:34:08.282
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-16 12:34:08.330
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:34:08.476
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:34:08.486
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:34:08.879
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:34:08.880
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:34:08.883
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:34:08.883
+!MESSAGE 2 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:34:08.884
+!MESSAGE Reconciled 0, validated: 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:34:09.018
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:35:10.631
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:35:10.633
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:35:10.870
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:35:16.020
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:35:16.020
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:35:16.023
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:35:16.024
+!MESSAGE 2 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:35:16.024
+!MESSAGE Reconciled 0, validated: 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:35:16.157
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:35:33.839
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:00.533
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:00.534
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:00.780
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:00.939
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:00.939
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:00.942
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:00.942
+!MESSAGE 2 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:00.943
+!MESSAGE Reconciled 0, validated: 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:01.074
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:39.291
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:39.533
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:40.197
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:40.198
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:40.199
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:40.200
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:40.202
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:40.218
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:40.237
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:40.487
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:40.489
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:40.553
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:40.556
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:40.650
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:40.650
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:40.654
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:40.655
+!MESSAGE 5 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:40.655
+!MESSAGE Reconciled 0, validated: 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:40.788
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:40.877
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:40.959
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:45.929
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:46.177
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:46.549
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:46.791
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:47.028
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:47.030
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:47.030
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:47.224
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:47.474
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:47.475
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:47.524
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:47.525
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:47.546
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:47.586
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:47.661
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:47.734
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:47.773
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:47.821
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:47.915
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:48.239
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:48.317
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:48.388
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:48.459
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:48.514
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:48.619
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:48.699
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:48.806
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:48.861
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:48.900
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:48.995
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:49.053
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:49.467
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:49.467
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:49.475
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:49.475
+!MESSAGE 5 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:49.475
+!MESSAGE Reconciled 0, validated: 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:49.578
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:49.923
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:49.924
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:49.934
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:50.019
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:50.067
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:50.122
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:50.349
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:50.599
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:50.599
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:50.756
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:50.756
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:50.760
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:50.761
+!MESSAGE 4 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:50.761
+!MESSAGE Reconciled 0, validated: 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:50.855
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:50.891
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:51.245
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:51.246
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:51.246
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:51.480
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:51.558
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:51.660
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:51.682
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:51.741
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:51.807
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:51.876
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:51.920
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:51.988
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:52.110
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:52.361
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:52.362
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:52.369
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:52.375
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:52.376
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:52.404
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:52.517
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:52.519
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:52.584
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:52.712
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:52.725
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:52.856
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:53.000
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:53.196
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:53.197
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:53.315
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:53.317
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:53.404
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:53.452
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:53.454
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:53.524
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:53.524
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:53.668
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:53.851
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:53.933
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:54.035
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:54.275
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:54.396
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:54.525
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:54.680
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:55.093
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:55.093
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:55.098
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:55.098
+!MESSAGE 4 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:55.099
+!MESSAGE Reconciled 0, validated: 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:55.706
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:55.710
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:55.721
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:55.830
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:55.882
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:55.948
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:55.983
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:56.045
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:56.276
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:56.277
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:56.334
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:56.467
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:56.561
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:56.638
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:56.732
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:56.734
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:56.790
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:56.891
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:56.996
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:57.050
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:57.115
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:57.180
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:57.254
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:57.324
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:57.550
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:57.802
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:57.803
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:57.958
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:57.958
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:57.963
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:57.963
+!MESSAGE 6 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:57.964
+!MESSAGE Reconciled 0, validated: 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:58.062
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:58.095
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:58.903
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:58.904
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:58.918
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:59.156
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:59.157
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:59.252
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:59.253
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:59.302
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:59.412
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:59.501
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:59.503
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:59.541
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:59.637
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:59.716
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:59.836
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:36:59.988
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:00.037
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:00.090
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:00.165
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:00.228
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:00.421
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:00.486
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:00.634
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:00.867
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:00.869
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:00.882
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:00.884
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:00.896
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:00.897
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:00.900
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:00.901
+!MESSAGE 6 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:00.901
+!MESSAGE Reconciled 0, validated: 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:01.032
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:01.084
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:01.085
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:01.085
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:01.266
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:01.268
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:01.337
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:01.338
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:01.494
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:01.494
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:01.497
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:01.497
+!MESSAGE 5 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:01.497
+!MESSAGE Reconciled 0, validated: 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:01.581
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:01.627
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:19.636
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:19.884
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:20.194
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:20.194
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:20.195
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:20.444
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:20.446
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:20.485
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:20.486
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:20.488
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:20.693
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:20.945
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:21.005
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:21.080
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:21.276
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:21.294
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:21.335
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:21.509
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:21.573
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:21.797
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:21.980
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:22.229
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:22.230
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:22.389
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:22.389
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:22.392
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:22.392
+!MESSAGE 5 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:22.392
+!MESSAGE Reconciled 0, validated: 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:22.439
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:22.522
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:22.573
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:22.573
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:22.979
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:22.980
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:22.985
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:22.985
+!MESSAGE 7 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:22.986
+!MESSAGE Reconciled 0, validated: 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:22.992
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:22.993
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:23.121
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:23.122
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:23.206
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:23.207
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:23.242
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:23.399
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:23.399
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:23.402
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:23.403
+!MESSAGE 6 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:23.403
+!MESSAGE Reconciled 0, validated: 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:23.537
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:23.717
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:23.887
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:23.888
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:23.889
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:24.026
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:24.027
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:24.135
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:24.136
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:24.298
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:24.300
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:24.305
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:24.305
+!MESSAGE 5 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:24.309
+!MESSAGE Reconciled 0, validated: 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:24.439
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:24.452
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:33.197
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:33.747
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:34.978
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:34.979
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:34.980
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:35.221
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:35.222
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:35.387
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:35.388
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:35.390
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:35.390
+!MESSAGE 5 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:35.391
+!MESSAGE Reconciled 0, validated: 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:35.523
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:40.873
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:41.175
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:41.284
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:41.529
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:41.687
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:42.807
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:43.060
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:43.175
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:43.175
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:43.426
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:43.427
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:43.485
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:43.486
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:43.737
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:43.738
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:43.894
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:43.895
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:43.898
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:43.898
+!MESSAGE 6 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:43.898
+!MESSAGE Reconciled 0, validated: 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:44.031
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:44.452
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:44.455
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:44.501
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:37:44.863
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:38:29.488
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:38:29.489
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:38:29.489
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:38:29.506
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:38:29.741
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:38:29.741
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:38:29.897
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:38:29.897
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:38:29.900
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:38:29.901
+!MESSAGE 9 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:38:29.901
+!MESSAGE Reconciled 0, validated: 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:38:29.929
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:38:30.036
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:39:13.824
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:39:14.070
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:39:14.408
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:39:14.658
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:39:14.738
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:39:14.739
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:39:14.987
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:39:14.987
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:39:15.147
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:39:15.148
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:39:15.151
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:39:15.151
+!MESSAGE 6 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:39:15.152
+!MESSAGE Reconciled 0, validated: 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:39:15.285
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:39:15.445
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:39:15.447
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:39:15.903
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:40:52.030
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:40:52.031
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:40:52.578
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:40:52.581
+!MESSAGE Thread[process reaper,10,system]
+	at java.base@9/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@9/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
+	at java.base@9/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+	at java.base@9/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base@9/java.lang.Thread.run(Thread.java:844)
+Thread[pool-2-thread-1,5,main]
+	at java.base@9/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2104)
+	at java.base@9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1131)
+	at java.base@9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:848)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base@9/java.lang.Thread.run(Thread.java:844)
+Thread[Worker-JM,5,main]
+	at java.base@9/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:59)
+Thread[Common-Cleaner,8,InnocuousThreadGroup]
+	at java.base@9/java.lang.Object.wait(Native Method)
+	at java.base@9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:151)
+	at java.base@9/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:148)
+	at java.base@9/java.lang.Thread.run(Thread.java:844)
+	at java.base@9/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:122)
+Thread[Finalizer,8,system]
+	at java.base@9/java.lang.Object.wait(Native Method)
+	at java.base@9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:151)
+	at java.base@9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:172)
+	at java.base@9/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+Thread[main,5,main]
+	at java.base@9/java.lang.Object.wait(Native Method)
+	at org.eclipse.osgi.container.SystemModule.waitForStop(SystemModule.java:168)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle.waitForStop(EquinoxBundle.java:250)
+	at org.eclipse.osgi.launch.Equinox.waitForStop(Equinox.java:181)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:444)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:262)
+	at java.base@9/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@9/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@9/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@9/java.lang.reflect.Method.invoke(Method.java:564)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at app//org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+Thread[Worker-5,5,main]
+	at java.base@9/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:188)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:52)
+Thread[Signal Dispatcher,9,system]
+Thread[Framework Event Dispatcher: org.eclipse.osgi.internal.framework.EquinoxEventPublisher@609e8838,5,main]
+	at java.base@9/java.lang.Object.wait(Native Method)
+	at java.base@9/java.lang.Object.wait(Object.java:516)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:336)
+Thread[Worker-7,5,main]
+	at java.base@9/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:188)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:52)
+Thread[Bundle File Closer,5,main]
+	at java.base@9/java.lang.Object.wait(Native Method)
+	at java.base@9/java.lang.Object.wait(Object.java:516)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:336)
+Thread[pool-1-thread-1,5,main]
+	at java.base@9/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@9/java.io.FileInputStream.read(FileInputStream.java:256)
+	at java.base@9/java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.base@9/java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:61)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:84)
+	at java.base@9/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base@9/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base@9/java.lang.Thread.run(Thread.java:844)
+Thread[Active Thread: Equinox Container: a8e511b5-1b5d-4539-977d-cea2b1bd8168,5,main]
+	at java.base@9/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2104)
+	at java.base@9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1131)
+	at java.base@9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:848)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base@9/java.lang.Thread.run(Thread.java:844)
+Thread[Framework stop,5,main]
+	at java.base@9/java.lang.Thread.dumpThreads(Native Method)
+	at java.base@9/java.lang.Thread.getAllStackTraces(Thread.java:1705)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.getThreadDump(JavaLanguageServerPlugin.java:240)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.stop(JavaLanguageServerPlugin.java:231)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:835)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.base@9/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:828)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:947)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:314)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1588)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:270)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:147)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:202)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:165)
+	at java.base@9/java.lang.Thread.run(Thread.java:844)
+Thread[Java indexing,4,main]
+	at java.base@9/java.lang.Object.wait(Native Method)
+	at java.base@9/java.lang.Object.wait(Object.java:516)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:373)
+	at java.base@9/java.lang.Thread.run(Thread.java:844)
+Thread[Start Level: Equinox Container: a8e511b5-1b5d-4539-977d-cea2b1bd8168,5,main]
+	at java.base@9/java.lang.Object.wait(Native Method)
+	at java.base@9/java.lang.Object.wait(Object.java:516)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:336)
+Thread[ForkJoinPool.commonPool-worker-1,5,main]
+	at java.base@9/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@9/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1668)
+	at java.base@9/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Thread[Reference Handler,10,system]
+	at java.base@9/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@9/java.lang.ref.Reference.processPendingReferences(Reference.java:174)
+	at java.base@9/java.lang.ref.Reference.access$000(Reference.java:44)
+	at java.base@9/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:138)
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-16 12:40:53.107
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2017-10-16 12:41:00.973 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=9
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Command-line arguments:  -data /Users/ashi/Library/Application Support/Code/User/workspaceStorage/1ecd0d76b8173e4a0fe1c32b8d725786/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-16 12:41:01.770
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:02.164
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:02.290
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:02.291
+!MESSAGE Initializing Java Language Server 0.5.0.201710022302
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:02.313
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:03.338
+!MESSAGE >>New configuration: {java={home=null, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={updateBuildConfiguration=interactive, maven={userSettings=null}}, trace={server=off}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true}, import={exclusions=['**/node_modules', '**/.metadata']}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:03.340
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:03.348
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:03.616
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:03.624
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:04.021
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:04.021
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:04.027
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:04.027
+!MESSAGE 6 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:04.029
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:04.165
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:06.700
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:07.129
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:07.439
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:19.645
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:19.646
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:20.473
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:41:20.476
+!MESSAGE Thread[Java indexing,4,main]
+	at java.base@9/java.lang.Object.wait(Native Method)
+	at java.base@9/java.lang.Object.wait(Object.java:516)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:373)
+	at java.base@9/java.lang.Thread.run(Thread.java:844)
+Thread[Worker-1,5,main]
+	at java.base@9/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:188)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:52)
+Thread[Worker-JM,5,main]
+	at java.base@9/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:59)
+Thread[process reaper,10,system]
+	at java.base@9/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@9/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
+	at java.base@9/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+	at java.base@9/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base@9/java.lang.Thread.run(Thread.java:844)
+Thread[Framework stop,5,main]
+	at java.base@9/java.lang.Thread.dumpThreads(Native Method)
+	at java.base@9/java.lang.Thread.getAllStackTraces(Thread.java:1705)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.getThreadDump(JavaLanguageServerPlugin.java:240)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.stop(JavaLanguageServerPlugin.java:231)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:835)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.base@9/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:828)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:947)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:314)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1588)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:270)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:147)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:202)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:165)
+	at java.base@9/java.lang.Thread.run(Thread.java:844)
+Thread[Common-Cleaner,8,InnocuousThreadGroup]
+	at java.base@9/java.lang.Object.wait(Native Method)
+	at java.base@9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:151)
+	at java.base@9/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:148)
+	at java.base@9/java.lang.Thread.run(Thread.java:844)
+	at java.base@9/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:122)
+Thread[pool-2-thread-1,5,main]
+	at java.base@9/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2104)
+	at java.base@9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1131)
+	at java.base@9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:848)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base@9/java.lang.Thread.run(Thread.java:844)
+Thread[main,5,main]
+	at java.base@9/java.lang.Object.wait(Native Method)
+	at org.eclipse.osgi.container.SystemModule.waitForStop(SystemModule.java:168)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle.waitForStop(EquinoxBundle.java:250)
+	at org.eclipse.osgi.launch.Equinox.waitForStop(Equinox.java:181)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:444)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:262)
+	at java.base@9/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@9/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@9/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@9/java.lang.reflect.Method.invoke(Method.java:564)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at app//org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+Thread[Reference Handler,10,system]
+	at java.base@9/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@9/java.lang.ref.Reference.processPendingReferences(Reference.java:174)
+	at java.base@9/java.lang.ref.Reference.access$000(Reference.java:44)
+	at java.base@9/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:138)
+Thread[Worker-0,5,main]
+	at java.base@9/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:188)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:52)
+Thread[pool-1-thread-1,5,main]
+	at java.base@9/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@9/java.io.FileInputStream.read(FileInputStream.java:256)
+	at java.base@9/java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.base@9/java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:61)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:84)
+	at java.base@9/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base@9/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base@9/java.lang.Thread.run(Thread.java:844)
+Thread[Active Thread: Equinox Container: 770bb394-558e-4d47-9032-8149403a7e38,5,main]
+	at java.base@9/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2104)
+	at java.base@9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1131)
+	at java.base@9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:848)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.base@9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base@9/java.lang.Thread.run(Thread.java:844)
+Thread[Framework Event Dispatcher: org.eclipse.osgi.internal.framework.EquinoxEventPublisher@609e8838,5,main]
+	at java.base@9/java.lang.Object.wait(Native Method)
+	at java.base@9/java.lang.Object.wait(Object.java:516)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:336)
+Thread[Start Level: Equinox Container: 770bb394-558e-4d47-9032-8149403a7e38,5,main]
+	at java.base@9/java.lang.Object.wait(Native Method)
+	at java.base@9/java.lang.Object.wait(Object.java:516)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:336)
+Thread[Signal Dispatcher,9,system]
+Thread[ForkJoinPool.commonPool-worker-1,5,main]
+	at java.base@9/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@9/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1668)
+	at java.base@9/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Thread[Worker-2,5,main]
+	at java.base@9/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:188)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:52)
+Thread[Finalizer,8,system]
+	at java.base@9/java.lang.Object.wait(Native Method)
+	at java.base@9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:151)
+	at java.base@9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:172)
+	at java.base@9/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-16 12:41:21.098
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2017-10-16 12:45:31.672 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Command-line arguments:  -data /Users/ashi/Library/Application Support/Code/User/workspaceStorage/1ecd0d76b8173e4a0fe1c32b8d725786/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-16 12:45:33.114
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:33.794
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:34.076
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:34.079
+!MESSAGE Initializing Java Language Server 0.5.0.201710022302
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:34.211
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:35.649
+!MESSAGE >>New configuration: {java={home=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={updateBuildConfiguration=interactive, maven={userSettings=null}}, trace={server=off}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true}, import={exclusions=['**/node_modules', '**/.metadata']}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:35.652
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:35.668
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:35.811
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:35.819
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:35.824
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:35.836
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:35.840
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:35.945
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:35.951
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:35.953
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:35.974
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:36.052
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:36.117
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:36.189
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:36.285
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:36.486
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:36.488
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:36.579
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:36.734
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:36.735
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:36.910
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:36.910
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:36.919
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:36.919
+!MESSAGE 9 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:36.921
+!MESSAGE Reconciled 0, validated: 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:37.025
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:37.056
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:37.071
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:37.072
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:37.098
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:37.269
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:37.518
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:37.520
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:37.680
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:37.680
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:37.685
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:37.686
+!MESSAGE 9 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:37.687
+!MESSAGE Reconciled 0, validated: 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:37.721
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:37.723
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:37.778
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:37.779
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:37.818
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:37.819
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:38.030
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:38.189
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:38.190
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:38.193
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:38.194
+!MESSAGE 6 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:38.196
+!MESSAGE Reconciled 0, validated: 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:38.273
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:38.275
+!MESSAGE Releasing AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:38.669
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:38.673
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:38.696
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:38.697
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:38.703
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:38.704
+!MESSAGE 6 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:38.704
+!MESSAGE Reconciled 0, validated: 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:39.076
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:39.491
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:41.891
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:45.305
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:46.835
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:47.797
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:48.104
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:45:55.100
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:39.398
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:39.600
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:39.604
+!MESSAGE Creating uncached AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:40.652
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:40.653
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:40.782
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:40.784
+!MESSAGE Thread[Worker-JM,5,main]
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:59)
+Thread[Framework Event Dispatcher: org.eclipse.osgi.internal.framework.EquinoxEventPublisher@62ddbd7e,5,main]
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:336)
+Thread[Signal Dispatcher,9,system]
+Thread[Java indexing,4,main]
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:373)
+	at java.lang.Thread.run(Thread.java:748)
+Thread[Worker-3,5,main]
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:188)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:52)
+Thread[pool-1-thread-1,5,main]
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(FileInputStream.java:255)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:61)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:84)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Thread[main,5,main]
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.osgi.container.SystemModule.waitForStop(SystemModule.java:168)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle.waitForStop(EquinoxBundle.java:250)
+	at org.eclipse.osgi.launch.Equinox.waitForStop(Equinox.java:181)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:444)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:262)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+Thread[Framework stop,5,main]
+	at java.lang.Thread.dumpThreads(Native Method)
+	at java.lang.Thread.getAllStackTraces(Thread.java:1610)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.getThreadDump(JavaLanguageServerPlugin.java:240)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.stop(JavaLanguageServerPlugin.java:231)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:835)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:828)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:947)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:314)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1588)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:270)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:147)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:202)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:165)
+	at java.lang.Thread.run(Thread.java:748)
+Thread[ForkJoinPool.commonPool-worker-3,5,main]
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Thread[pool-2-thread-1,5,main]
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Thread[Worker-0,5,main]
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:188)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:52)
+Thread[Reference Handler,10,system]
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+Thread[Worker-1,5,main]
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:188)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:52)
+Thread[Refresh Thread: Equinox Container: 2104844d-972a-4abb-8dc3-99d66d874f4b,5,main]
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:336)
+Thread[Active Thread: Equinox Container: 2104844d-972a-4abb-8dc3-99d66d874f4b,5,main]
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Thread[process reaper,10,system]
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Thread[Bundle File Closer,5,main]
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:336)
+Thread[Finalizer,8,system]
+	at java.lang.Object.wait(Native Method)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:164)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:209)
+Thread[Start Level: Equinox Container: 2104844d-972a-4abb-8dc3-99d66d874f4b,5,main]
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:336)
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-16 12:46:41.442
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2017-10-16 12:46:46.819 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Command-line arguments:  -data /Users/ashi/Library/Application Support/Code/User/workspaceStorage/1ecd0d76b8173e4a0fe1c32b8d725786/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-16 12:46:47.442
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:47.829
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:48.285
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:48.287
+!MESSAGE Initializing Java Language Server 0.5.0.201710022302
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:48.327
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:49.907
+!MESSAGE >>New configuration: {java={home=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={updateBuildConfiguration=interactive, maven={userSettings=null}}, trace={server=off}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true}, import={exclusions=['**/node_modules', '**/.metadata']}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:49.910
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:49.934
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:50.665
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:50.668
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:50.765
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:50.766
+!MESSAGE 7 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:50.776
+!MESSAGE Reconciled 0, validated: 1. Took 146 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:53.871
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:54.730
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:54.945
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:46:56.545
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:47:00.832
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:47:01.078
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:58:36.820
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:58:45.302
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:58:52.867
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:58:52.869
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:58:53.772
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:58:53.778
+!MESSAGE Thread[Reference Handler,10,system]
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+Thread[Worker-JM,5,main]
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:59)
+Thread[Framework Event Dispatcher: org.eclipse.osgi.internal.framework.EquinoxEventPublisher@d4342c2,5,main]
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:336)
+Thread[Worker-3,5,main]
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:188)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:52)
+Thread[Signal Dispatcher,9,system]
+Thread[Finalizer,8,system]
+	at java.lang.Object.wait(Native Method)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:164)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:209)
+Thread[main,5,main]
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.osgi.container.SystemModule.waitForStop(SystemModule.java:168)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle.waitForStop(EquinoxBundle.java:250)
+	at org.eclipse.osgi.launch.Equinox.waitForStop(Equinox.java:181)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:444)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:262)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+Thread[Worker-1,5,main]
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:188)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:52)
+Thread[Java indexing,4,main]
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:373)
+	at java.lang.Thread.run(Thread.java:748)
+Thread[Framework stop,5,main]
+	at java.lang.Thread.dumpThreads(Native Method)
+	at java.lang.Thread.getAllStackTraces(Thread.java:1610)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.getThreadDump(JavaLanguageServerPlugin.java:240)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.stop(JavaLanguageServerPlugin.java:231)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:835)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:828)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:947)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:314)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1588)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:270)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:147)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:202)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:165)
+	at java.lang.Thread.run(Thread.java:748)
+Thread[pool-1-thread-1,5,main]
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(FileInputStream.java:255)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:61)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:84)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Thread[Active Thread: Equinox Container: 8b0e34a6-1517-4aca-aa9f-a12ec338fbd2,5,main]
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Thread[pool-2-thread-1,5,main]
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Thread[process reaper,10,system]
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Thread[Start Level: Equinox Container: 8b0e34a6-1517-4aca-aa9f-a12ec338fbd2,5,main]
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:336)
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-16 12:58:54.366
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2017-10-16 12:59:00.035 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Command-line arguments:  -data /Users/ashi/Library/Application Support/Code/User/workspaceStorage/1ecd0d76b8173e4a0fe1c32b8d725786/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-16 12:59:00.605
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:00.805
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:00.894
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:00.895
+!MESSAGE Initializing Java Language Server 0.5.0.201710022302
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:00.921
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:02.701
+!MESSAGE >>New configuration: {java={home=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={updateBuildConfiguration=interactive, maven={userSettings=null}}, trace={server=off}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true}, import={exclusions=['**/node_modules', '**/.metadata']}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:02.709
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:02.722
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:02.971
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:02.980
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:03.379
+!MESSAGE Releasing all ASTs
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:03.380
+!MESSAGE Caching AST for /barnard/src/barnard/Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:03.385
+!MESSAGE begin problem for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:03.385
+!MESSAGE 6 problems reported for /Brackets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:03.387
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:03.522
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:04.348
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:04.884
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:04.966
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:04.967
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:05.935
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-10-16 12:59:05.938
+!MESSAGE Thread[Worker-1,5,main]
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:188)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:52)
+Thread[Worker-JM,5,main]
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:59)
+Thread[Framework stop,5,main]
+	at java.lang.Thread.dumpThreads(Native Method)
+	at java.lang.Thread.getAllStackTraces(Thread.java:1610)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.getThreadDump(JavaLanguageServerPlugin.java:240)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.stop(JavaLanguageServerPlugin.java:231)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:835)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:828)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:947)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:314)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1588)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:270)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:147)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:202)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:165)
+	at java.lang.Thread.run(Thread.java:748)
+Thread[ForkJoinPool.commonPool-worker-1,5,main]
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Thread[Start Level: Equinox Container: f2ed8724-908e-405c-bcd7-50882c31285f,5,main]
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:336)
+Thread[Signal Dispatcher,9,system]
+Thread[Worker-2,5,main]
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:188)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:52)
+Thread[Worker-3,5,main]
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:188)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:52)
+Thread[pool-1-thread-1,5,main]
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(FileInputStream.java:255)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:61)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:84)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Thread[process reaper,10,system]
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Thread[Active Thread: Equinox Container: f2ed8724-908e-405c-bcd7-50882c31285f,5,main]
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Thread[main,5,main]
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.osgi.container.SystemModule.waitForStop(SystemModule.java:168)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle.waitForStop(EquinoxBundle.java:250)
+	at org.eclipse.osgi.launch.Equinox.waitForStop(Equinox.java:181)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:444)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:262)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+Thread[Framework Event Dispatcher: org.eclipse.osgi.internal.framework.EquinoxEventPublisher@d4342c2,5,main]
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:336)
+Thread[pool-2-thread-1,5,main]
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Thread[Java indexing,4,main]
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:373)
+	at java.lang.Thread.run(Thread.java:748)
+Thread[Finalizer,8,system]
+	at java.lang.Object.wait(Native Method)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:164)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:209)
+Thread[Worker-0,5,main]
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:188)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:52)
+Thread[Reference Handler,10,system]
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-16 12:59:06.508
+!MESSAGE The workspace will exit with unsaved changes in this session.

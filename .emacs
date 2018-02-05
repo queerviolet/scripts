@@ -32,7 +32,7 @@
  '(writeroom-global-effects
    (quote
     (writeroom-set-alpha writeroom-set-menu-bar-lines writeroom-set-tool-bar-lines writeroom-set-vertical-scroll-bars writeroom-set-bottom-divider-width)))
- '(writeroom-major-modes (quote (text-mode markdown-mode))))
+ '(writeroom-major-modes (quote (text-mode markdown-mode fountain-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

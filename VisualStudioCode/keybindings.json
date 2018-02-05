@@ -18,4 +18,13 @@
     "key": "cmd+d",
     "command": "editor.action.addSelectionToNextFindMatch",
     "when": "editorTextFocus"
-}]
+},
+{
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.toggleTerminal"
+},
+{
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal"
+}
+]

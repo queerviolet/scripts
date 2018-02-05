@@ -17,7 +17,7 @@ function resetTimer() {
 function push(direction) {
   resetTimer()
   if (direction === lastDirection) {
-    return sizes[lastSizeIdx = Math.min(sizes.length, lastSizeIdx + 1)](direction)
+    return sizes[lastSizeIdx = Math.min(sizes.length - 1, lastSizeIdx + 1)](direction)
   }
   lastDirection = direction
   return sizes[lastSizeIdx](direction)
@@ -28,7 +28,9 @@ function reset() {
   lastDirection = null
 }
 
-slate.bind('1:ctrl,cmd', w => slate.log(w.app().name()))
+slate.bind('1:ctrl,cmd', w => {
+  slate.log(w.pid())
+})
 
 slate.bind('left:ctrl,alt', w => w.doOperation(push('left')))
 slate.bind('right:ctrl,alt', w => w.doOperation(push('right')))

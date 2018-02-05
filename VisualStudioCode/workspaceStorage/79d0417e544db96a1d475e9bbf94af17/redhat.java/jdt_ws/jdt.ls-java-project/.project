@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdt.ls-java-project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/barnard/Brackets.java</name>
+			<type>1</type>
+			<location>//Users/ashi/gh/barnard/src/barnard/Brackets.java</location>
+		</link>
+		<link>
+			<name>src/barnard/Maze.java</name>
+			<type>1</type>
+			<location>/Users/ashi/gh/barnard/src/barnard/Maze.java</location>
+		</link>
+		<link>
+			<name>src/barnard/Subsets.java</name>
+			<type>1</type>
+			<location>//Users/ashi/gh/barnard/src/barnard/Subsets.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

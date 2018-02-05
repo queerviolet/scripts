@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 1,
     "editor.tabSize": 2,
     "editor.tabCompletion": true,
     "terminal.integrated.shellArgs.osx": [
@@ -31,5 +31,6 @@
     "workbench.sideBar.location": "left",
     "workbench.activityBar.visible": false,
     "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "java.home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/"
 }

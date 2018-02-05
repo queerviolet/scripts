@@ -3,6 +3,7 @@ alias git=hub
 alias nodesk="defaults write com.apple.finder CreateDesktop false && killall Finder"
 alias deskme="defaults write com.apple.finder CreateDesktop true && killall Finder"
 nodesk
+alias plan="open -a Emacs PLAN"
 
 export EDITOR=emacs
 export PATH=$HOME/scripts:/usr/local/go/bin:$PATH
@@ -48,4 +49,8 @@ if [ -f '/Users/ashi/google-cloud-sdk/completion.bash.inc' ]; then source '/User
 
 export COHORT=1709-GH-NY
 export COHORT_SLACK=1709-gh-ny-jr
-export SLACK_API_TOKEN=$(cat ~/.slack-api-token)
+export SLACK_API_TOKEN=$(cat ~/.slack-api-token)export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
+# added by Anaconda2 installer
+export PATH="/Users/ashi/anaconda2/bin:$PATH"

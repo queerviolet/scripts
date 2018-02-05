@@ -1,0 +1,3 @@
+INDEX VERSION 1.130+/Users/ashi/scripts/VisualStudioCode/workspaceStorage/1ecd0d76b8173e4a0fe1c32b8d725786/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core
+3842426239.index
+3705471517.index
