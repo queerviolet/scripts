@@ -56,5 +56,4 @@ eval "$(jenv init -)"
 export PATH="/Users/ashi/anaconda2/bin:$PATH"
 
 # npx auto-fallback is the best kind of dangerous
-which npx
 . <(npx --shell-auto-fallback bash)
