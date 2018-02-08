@@ -1,4 +1,7 @@
-var span = (span=1, cols=2, axis='X', op='push') => direction => slate.operation(op, {
+var span = (span=1, cols=2, op='push') =>
+  (direction,
+    axis=(direction === 'left' || direction === 'right')
+    ? 'X' : 'Y') => slate.operation(op, {
   direction,
   style: `bar-resize:${span}*screenSize${axis}/${cols}`
 })
@@ -34,3 +37,5 @@ slate.bind('1:ctrl,cmd', w => {
 
 slate.bind('left:ctrl,alt', w => w.doOperation(push('left')))
 slate.bind('right:ctrl,alt', w => w.doOperation(push('right')))
+slate.bind('up:ctrl,alt', w => w.doOperation(push('top')))
+slate.bind('down:ctrl,alt', w => w.doOperation(push('bottom')))

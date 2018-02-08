@@ -8,14 +8,15 @@ alias plan="open -a Emacs PLAN"
 export EDITOR=emacs
 export PATH=$HOME/scripts:/usr/local/go/bin:$PATH
 alias gitst="git status -s -b 2>/dev/null"
-if [ "$TERM_PROGRAM" = Apple_Terminal ] ||
+if [ "$TERM_PROGRAM" = Hyper ] ||
+   [ "$TERM_PROGRAM" = Apple_Terminal ] ||
    [ "$TERM_PROGRAM" = iTerm.app ] ||
    [ -n "$VSCODE_PID" ]; then
   heart_prompt() {
     if [ $? == 0 ]; then
-      PS1="\[\033[1;34m\]\h : \w\[\033[0m\] \$(git -c color.ui=always branch 2> /dev/null)\n💗  "
+      PS1="\n\$(git -c color.ui=always branch 2> /dev/null)\n💗  \[\033[1;34m\]\h : \w\[\033[0m\]\n"
     else
-      PS1="\[\033[1;34m\]\h : \w\[\033[0m\] \$(git -c color.ui=always branch 2> /dev/null)\n💔  "
+      PS1="\n\$(git -c color.ui=always branch 2> /dev/null)\n💔  \[\033[1;34m\]\h : \w\[\033[0m\]\n"
     fi
   }
   PROMPT_COMMAND=heart_prompt
