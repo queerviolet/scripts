@@ -12,14 +12,43 @@ if [ "$TERM_PROGRAM" = Hyper ] ||
    [ "$TERM_PROGRAM" = Apple_Terminal ] ||
    [ "$TERM_PROGRAM" = iTerm.app ] ||
    [ -n "$VSCODE_PID" ]; then
+
+  setBackgroundColor() {
+      #printf '\x1bPtmux;\x1b\x1b[48;2;%s;%s;%sm' $1 $2 $3
+      printf '\x1b[48;2;%s;%s;%sm' $1 $2 $3
+  }
+
+  resetOutput() {
+      echo -en "\x1b[0m\n"
+  }
+  RESET='\033[0m'
+  PURPLE='\033[1;35m'
+  WHITE='\033[1;37m'
+
+  hr() {
+    printf $hr
+  }
+
   heart_prompt() {
     if [ $? == 0 ]; then
-      PS1="\n\$(git -c color.ui=always branch 2> /dev/null)\n💗  \[\033[1;34m\]\h : \w\[\033[0m\]\n"
+      heart=" 💗  "
     else
-      PS1="\n\$(git -c color.ui=always branch 2> /dev/null)\n💔  \[\033[1;34m\]\h : \w\[\033[0m\]\n"
+      heart=" 💔  "
     fi
+
+    cols=$(tput cols)
+    hr=$(printf '─%.0s' $(seq 1 $cols) | ~/scripts/node_modules/.bin/lolcatjs -f)
+    echo $hr
+    branches=$(git branch > /dev/null 2>&1)      
+    if [ $? = 0 ]; then      
+      git -c color.ui=always branch
+      echo
+    fi
+    echo -n "$heart"
   }
   PROMPT_COMMAND=heart_prompt
+  PS1="\[${PURPLE}\]\h : \w\[\033[0m\]\n\[${WHITE}\]"
+  PS0="\$(hr)\[${RESET}\]"
 fi
 
 alias c="code --new-window"
