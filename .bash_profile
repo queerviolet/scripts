@@ -42,13 +42,12 @@ if [ "$TERM_PROGRAM" = Hyper ] ||
     branches=$(git branch > /dev/null 2>&1)      
     if [ $? = 0 ]; then      
       git -c color.ui=always branch
-      echo
     fi
     echo -n "$heart"
   }
   PROMPT_COMMAND=heart_prompt
   PS1="\[${PURPLE}\]\h : \w\[\033[0m\]\n\[${WHITE}\]"
-  PS0="\$(hr)\[${RESET}\]"
+  PS0="\$(hr)\[${RESET}\]\n"
 fi
 
 alias c="code --new-window"
