@@ -58,3 +58,8 @@ slate.bind('`:ctrl,alt', grid)
 slate.bind('tab:ctrl,alt', slate.operation('focus', {
   direction: 'behind'
 }))
+
+;['up', 'down', 'left', 'right'].forEach(direction =>
+  slate.bind(`${direction}:ctrl,alt,shift`, slate.operation('focus', {
+    direction
+  })))
