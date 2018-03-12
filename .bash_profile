@@ -46,7 +46,7 @@ if [ "$TERM_PROGRAM" = Hyper ] ||
     echo -n "$heart"
   }
   PROMPT_COMMAND=heart_prompt
-  PS1="\[${PURPLE}\]\h : \w\[\033[0m\]\n\[${WHITE}\]"
+  PS1="\[${PURPLE}\]\h : \w\[\033[0m\]\n\[\]"
   PS0="\$(hr)\[${RESET}\]\n"
 fi
 

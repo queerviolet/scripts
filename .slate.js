@@ -39,3 +39,22 @@ slate.bind('left:ctrl,alt', w => w.doOperation(push('left')))
 slate.bind('right:ctrl,alt', w => w.doOperation(push('right')))
 slate.bind('up:ctrl,alt', w => w.doOperation(push('top')))
 slate.bind('down:ctrl,alt', w => w.doOperation(push('bottom')))
+
+var grid = slate.operation('grid', {
+  'grids': {
+    '1680x1050': {
+      width: 6,
+      height: 6,
+    },
+    '1050x1680': {
+      width: 9,
+      height: 16
+    }
+  },
+  padding: 5
+})
+slate.bind('`:ctrl,alt', grid)
+
+slate.bind('tab:ctrl,alt', slate.operation('focus', {
+  direction: 'behind'
+}))
