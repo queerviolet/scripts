@@ -25,29 +25,25 @@ if [ "$TERM_PROGRAM" = Hyper ] ||
   PURPLE='\033[1;35m'
   WHITE='\033[1;37m'
 
-  hr() {
-    printf $hr
-  }
-
   heart_prompt() {
     if [ $? == 0 ]; then
-      heart=" 💗  "
+      heart="💗  "
     else
-      heart=" 💔  "
+      heart="💔  "
     fi
 
+    echo
     cols=$(tput cols)
-    hr=$(printf '─%.0s' $(seq 1 $cols) | ~/scripts/node_modules/.bin/lolcatjs -f)
-    echo $hr
     branches=$(git branch > /dev/null 2>&1)      
-    if [ $? = 0 ]; then      
+    if [ $? = 0 ]; then
       git -c color.ui=always branch
     fi
     echo -n "$heart"
   }
   PROMPT_COMMAND=heart_prompt
-  PS1="\[${PURPLE}\]\h : \w\[\033[0m\]\n\[\]"
-  PS0="\$(hr)\[${RESET}\]\n"
+  # 𒄒
+  PS1="\[${PURPLE}\]\h : \w\[\033[0m\]\n\[\]𒀖  "
+  PS0="\[${RESET}\]"
 fi
 
 alias c="code --new-window"
