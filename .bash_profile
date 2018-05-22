@@ -66,23 +66,21 @@ PATH=~/go_appengine:$PATH
 # added by Anaconda 2.3.0 installer
 export PATH="/Users/ashi/anaconda/bin:$PATH"
 
-export NVM_DIR="/Users/ashi/.nvm"
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-source ~/.profile
+if [ -f "~/.profile" ]; then source ~/.profile; fi
+
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/ashi/google-cloud-sdk/path.bash.inc' ]; then source '/Users/ashi/google-cloud-sdk/path.bash.inc'; fi
+if [ -f "~/google-cloud-sdk/path.bash.inc" ]; then source "/Users/ashi/google-cloud-sdk/path.bash.inc"; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/ashi/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/ashi/google-cloud-sdk/completion.bash.inc'; fi
-
-export COHORT=1709-GH-NY
-export COHORT_SLACK=1709-gh-ny-jr
-export SLACK_API_TOKEN=$(cat ~/.slack-api-token)export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
+if [ -f "~/google-cloud-sdk/completion.bash.inc" ]; then source "/Users/ashi/google-cloud-sdk/completion.bash.inc"; fi
 
 # added by Anaconda2 installer
-export PATH="/Users/ashi/anaconda2/bin:$PATH"
+export PATH="~/anaconda2/bin:$PATH"
 
 # npx auto-fallback is the best kind of dangerous
 . <(npx --shell-auto-fallback bash)
+
