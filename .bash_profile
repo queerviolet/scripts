@@ -42,12 +42,13 @@ if [ "$TERM_PROGRAM" = Hyper ] ||
   }
   PROMPT_COMMAND=heart_prompt
   # 𒄒
-  PS1="\[${PURPLE}\]\h : \w\[\033[0m\]\n\[\]𒀖  "
+  PS1="\[${PURPLE}\]\h : \w\[\033[0m\]\n\[\]=>  "
   PS0="\[${RESET}\]"
 fi
 
 alias c="code --new-window"
 alias e="open -a Emacs"
+alias atom="atom-beta"
 export VISUAL="code -w"
 
 # Git completion
