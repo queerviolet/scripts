@@ -1,7 +1,7 @@
 [user]
-	email = ashi@apollographql.com
+	email = i@ashi.io
 	name = Ashi Krishnan
-    
+
 [alias]
   co = checkout
   ci = commit
