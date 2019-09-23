@@ -1,5 +1,4 @@
 alias ls="ls -G"
-alias git=hub
 alias nodesk="defaults write com.apple.finder CreateDesktop false && killall Finder"
 alias deskme="defaults write com.apple.finder CreateDesktop true && killall Finder"
 nodesk
